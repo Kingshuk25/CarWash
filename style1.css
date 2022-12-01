@@ -1,0 +1,180 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: ;
+}
+#navbar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.bar {
+  background-color: rgb(194, 217, 229);
+  color: blue;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.item:hover {
+  color: rgb(32, 232, 112);
+  background-color: whitesmoke;
+}
+.item {
+  text-decoration: none;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+}
+#home{
+  /* background-color: blue; */
+  height:700px;
+}
+.banner {
+  background-image: url(https://autonxt.net/wp-content/uploads/2015/04/washing_01_1500_3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  opacity:0.7;
+}
+.pm {
+  font-size: 150px;
+  position: relative;
+  bottom: 80vh;
+  text-align: center;
+  color: rgb(9, 37, 249);
+  opacity: 0.7;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.sz {
+  font-size: 150px;
+  position: relative;
+  bottom: 88vh;
+  text-align: center;
+  color: rgb(9, 37, 249);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.point {
+  font-size: 50px;
+  position: relative;
+  bottom: 88vh;
+  text-align: center;
+    color: rgb(12, 13, 13);
+  opacity: 0.9;
+  font-weight: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.our {
+  /* background-image: url(https://tse2.mm.bing.net/th?id=OIP.uNuoQWv-ihzZIKjWvhCYfAHaE8&pid=Api&P=0); */
+  /* background-size: cover; */
+  background-color: rgb(11, 11, 55);
+  height: 20vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+  color: rgb(190, 158, 29);
+}
+
+#grid {
+  /* background-image: url(https://tse4.mm.bing.net/th?id=OIP.pd7T5F-d-GqAfeXTp84wkQHaE6&pid=Api&P=0);
+  background-size: cover; */
+  background-color: yellow;
+  height: 120vh;
+  width: 97.3%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+  
+}
+#grid .grid-img {
+  margin: 20px 20px;
+}
+.serve{
+  /* background-image: url(https://cdn.wallpapersafari.com/45/11/aiTVg4.jpg);
+  background-size: cover; */
+  background-color: blueviolet;
+  height: 20vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+  color: aqua; 
+}
+#grid1{
+  /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.1v40Pub40beWAkG0EwBNQAHaGI&pid=Api&P=0); */
+  background-size: cover;
+  height: 80vh;
+  width: 97.3%;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  font-weight: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:yellowgreen;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}  
+.book{
+  background-image: url(https://tse1.mm.bing.net/th?id=OIP.o4LthdYcWNCI1EXR9d-wmwHaEK&pid=Api&P=0);
+  background-size: cover;
+  height: 20vh;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+.appoint{
+  /* background-image: url(/image/IMG_20221018_201933-removebg-preview\ \(2\).png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 600px 0px 600px;
+  border: solid 2px;
+}
+input,select{
+  width: 20vw;
+  height: 5vh;
+}
+::placeholder{
+  height: 100px;
+  font-size: ;
+}
+
+
+
+#contact{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.jEytb7vhLbXZt06BKBVLOAHaCD&pid=Api&P=0);
+  background-size: cover;
+  font-size: 1vw;
+  line-height: 10px;
+  text-align: center;
+  color: wheat;
+}
+
+
+
+
+@media screen and(max-width:1024px) {
+  .bar {
+    font-size: 10px;
+    gap: 25px;
+    height: 2vh;
+    width: 98%;
+    background: yellow;
+    margin: 0px 10px 10px;
+  }
+}
